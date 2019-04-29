@@ -7,10 +7,6 @@ class GifListContainer extends React.Component {
     gifs: []
   }
 
-  componentDidMount() {
-    this.fetchGIFS()
-  }
-
   render() {
     return (
       <GifList gifs={this.state.gifs} />;
@@ -27,6 +23,10 @@ class GifListContainer extends React.Component {
         }))
       })
     })
+  }
+  
+  componentDidMount() {
+    this.fetchGIFS()
   }
 }
 
