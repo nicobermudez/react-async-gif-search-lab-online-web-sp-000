@@ -25,7 +25,7 @@ class GifListContainer extends React.Component {
       })
     })
   }
-  
+
   componentDidMount() {
     this.fetchGIFS()
   }
