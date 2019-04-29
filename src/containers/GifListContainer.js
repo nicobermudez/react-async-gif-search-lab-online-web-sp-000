@@ -10,6 +10,7 @@ class GifListContainer extends React.Component {
   render() {
     return (
       <div>
+        >GifSearch fetchGIFs
         <GifList gifs={this.state.gifs} />;
       </div>
 
