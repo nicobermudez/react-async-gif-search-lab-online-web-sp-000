@@ -6,3 +6,5 @@ const GifList = props =>
       <img key={gif.url} src={gif.url} alt="gif"/>
     ))}
   </ul>
+
+default export GifList
