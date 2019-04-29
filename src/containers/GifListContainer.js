@@ -13,4 +13,10 @@ class GifListContainer extends React.Component {
       })
     })
   }
+
+  render() {
+    return (
+      <GifList gifs={this.state.gifs} />;
+    )
+  }
 }
