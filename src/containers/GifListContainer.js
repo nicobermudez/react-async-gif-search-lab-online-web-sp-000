@@ -1,5 +1,4 @@
-fetch('http://api.giphy.com/v1/gifs/search?q=YOUR QUERY HERE&api_key=dc6zaTOxFJmzC&rating=g')
-.then(response => response.json())
-.then(data => {
+
+class GifListContainer extends React.Component {
   
-})
+}
