@@ -1,3 +1,5 @@
+import React from 'react';
+
 const GifList = props =>
   <ul>
     {props.gifs.map(g => (
