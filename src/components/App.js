@@ -2,7 +2,9 @@ import React from 'react'
 
 import NavBar from './NavBar'
 
-
+state = {
+  
+}
 
 const App = () => {
   return (
