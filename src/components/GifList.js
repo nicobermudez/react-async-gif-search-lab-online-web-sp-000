@@ -3,6 +3,6 @@ import React from 'react';
 const GifList = props =>
   <ul>
     {props.gifs.map(g => (
-      <li>{g.url}-{g.text}</li>
+      <img key={gif.url} src={gif.url} alt="gif"/>
     ))}
   </ul>
